@@ -1,3 +1,5 @@
-import interface
+from interface import interface
 
-interface.interface()
+interface()
+
+
