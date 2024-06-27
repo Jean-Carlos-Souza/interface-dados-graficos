@@ -3,7 +3,7 @@ import interface
 
 x = []
 
-y = []
+y = []  
 
 def dividindo(t1, t2):
 
@@ -12,10 +12,10 @@ def dividindo(t1, t2):
 
 def resultado():
     
-    plt.bar(x, y, color = 'purple')
-    plt.ylabel('Idade')
-    plt.xlabel('Nome')
-    plt.title('IDADExNOME')
-    plt.legend('Azul')
+    plt.bar(x, y, color = '#7fffd4', width=0.2)
+    plt.ylabel('Idade', color = 'red')
+    plt.xlabel('Nome', color = 'red')
+    plt.title('IDADE x NOME', color = 'black')
+    plt.legend('green')
     plt.show()
 

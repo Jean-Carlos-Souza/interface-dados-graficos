@@ -16,7 +16,6 @@ def interface():
 
         resultado()
 
-    lista = []
     janela = tk.Tk()
 
     janela.title('DADOS-GRÁFICOS')
